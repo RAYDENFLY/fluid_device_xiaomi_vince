@@ -135,6 +135,9 @@ ro.vendor.qti.va_aosp.support=1
 # Radio
 persist.radio.aosp_usr_pref_sel=true
 
+# Seamless transfer
+sys.fflag.override.settings_seamless_transfer=true
+
 # Time
 persist.backup.ntpServer=0.pool.ntp.org
 persist.timed.enable=true
