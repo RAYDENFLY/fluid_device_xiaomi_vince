@@ -1,0 +1,29 @@
+[
+    {
+        "repository":   "kernel_xiaomi_vince",
+        "target_path":  "kernel/xiaomi/vince"
+    },
+    {
+        "repository":   "vendor_xiaomi_vince",
+        "target_path":  "vendor/xiaomi/vince"
+    },
+    {
+        "repository":	"kdrag0n/proton-clang",
+        "remote":	"github",
+        "clone-depth":	"1",
+        "target_path":	"prebuilts/clang/host/linux-x86/clang-14",
+        "branch":	"master"
+    },
+    {
+        "repository":   "GhostMaster69-dev/android_packages_apps_CameraGo",
+	"remote":       "github",
+	"target_path":  "packages/apps/CameraGo",
+	"branch":       "main"
+    },
+    {
+        "repository":   "GhostMaster69-dev/android_packages_apps_FMRadio",
+	"remote":       "github",
+	"target_path":  "packages/apps/FMRadio",
+	"branch":       "12"
+    }
+]
