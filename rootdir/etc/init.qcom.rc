@@ -142,6 +142,14 @@ on boot
     # Create hvdcp_opti directory
     mkdir /mnt/vendor/persist/hvdcp_opti 0770 root system
 
+    # Sound Control
+    chown system system /sys/kernel/sound_control/earpiece_gain
+    chmod 0660 /sys/kernel/sound_control/earpiece_gain
+    chown system system /sys/kernel/sound_control/headphone_gain
+    chmod 0660 /sys/kernel/sound_control/headphone_gain
+    chown system system /sys/kernel/sound_control/mic_gain
+    chmod 0660 /sys/kernel/sound_control/mic_gain
+
 # msm specific files that need to be created on /data
 on post-fs-data
     mkdir /data/vendor/misc 01771 system system
