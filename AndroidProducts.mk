@@ -21,4 +21,6 @@ COMMON_LUNCH_CHOICES := \
     octavi_vince-user \
     octavi_vince-userdebug \
     octavi_vince-eng \
-    vince-userdebug
+    vince-user \
+    vince-userdebug \
+    vince-eng
