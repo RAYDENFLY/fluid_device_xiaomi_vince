@@ -36,8 +36,8 @@ LOCAL_CLANG                   := true
 LOCAL_SHARED_LIBRARIES        := libsdmcore libqservice libbinder libhardware libhardware_legacy \
                                  libutils libcutils libsync libqdutils libqdMetaData libdl libdrmutils \
                                  libsdmutils libc++ liblog libgrallocutils libdl \
-                                 vendor.display.config@2.0 libhidlbase \
-                                 libdisplayconfig.qti libui libgpu_tonemapper libbfqio
+                                 vendor.display.config@2.0 libhidlbase libhidltransport \
+                                 libdisplayconfig.qti libui libgpu_tonemapper
 
 ifneq ($(TARGET_USES_GRALLOC1), true)
     LOCAL_SHARED_LIBRARIES += libmemalloc
