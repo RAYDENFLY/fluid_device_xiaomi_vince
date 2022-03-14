@@ -18,5 +18,11 @@
 	"remote":       "github",
 	"target_path":  "packages/apps/FMRadio",
 	"branch":       "12"
+    },
+    {
+        "repository":   "GhostMaster69-dev/cosmic-clang",
+        "remote":       "github",
+        "target_path":  "prebuilts/clang/host/linux-x86/clang-cosmic",
+        "branch":       "master"
     }
 ]
