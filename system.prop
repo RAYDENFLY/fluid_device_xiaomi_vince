@@ -50,14 +50,6 @@ ro.vendor.use_data_netmgrd=true
 persist.data.netmgrd.qos.enable=true
 persist.vendor.data.mode=concurrent
 
-# Dirac
-hpx_send_params=1
-persist.audio.dirac.speaker=true
-ro.audio.soundfx.dirac=true
-persist.dirac.acs.controller=qem
-persist.dirac.acs.storeSettings=1
-persist.dirac.acs.ignore_error=1
-
 # Display
 debug.egl.hw=0
 debug.enable.sglscale=1
