@@ -15,10 +15,10 @@
 #
 
 # Inherit Octavi product configuration
-$(call inherit-product, device/xiaomi/vince/octavi_vince.mk)
+$(call inherit-product, device/xiaomi/vince/fluid_vince.mk)
 
 # Remove Octavi prefix from product name
 PRODUCT_NAME := vince
 
 # Identify Octavi Device identifier
-OCTAVI_BUILD := vince
+FLUID_BUILD := vince
